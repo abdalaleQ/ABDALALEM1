@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-BOT_USERNAME = getenv("BOT_USERNAME", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6871169383:AAHt4jxpTO47nHil-2UX7SFyFUCjl8JgFNo")
+BOT_USERNAME = getenv("BOT_USERNAME", "AX_GBBOT")
 admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH", "")
